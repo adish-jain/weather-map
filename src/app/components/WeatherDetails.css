@@ -1,0 +1,35 @@
+.weather-details {
+  text-align: center;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.weather-details h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.weather-details .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.weather-details p {
+  font-size: 1rem;
+}
+
+.weather-details .temperature {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+.weather-details .description {
+  font-size: 0.875rem;
+  color: #4a5568;
+}

@@ -1,0 +1,26 @@
+.weather-marker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.weather-marker .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.weather-marker span {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.weather-marker .description {
+  font-size: 0.875rem;
+  color: #4a5568;
+}
